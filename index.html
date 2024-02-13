@@ -20,13 +20,76 @@
       </header>
       <main>
         <form>
+          <select id="occasion">
+            <option value="">Choose an occasion...</option>
+            <option value="anniversary">📆 Anniversary</option>
+            <option value="birthday">🥳 Birthday</option>
+            <option value="chinese">🧧 Chinese New Year</option>
+            <option value="christmas ">🎄 Christmas</option>
+            <option value="congrats">🎉 Congrats</option>
+            <option value="diwali">🪔 Diwali</option>
+            <option value="easter">🐣 Easter</option>
+            <option value="farewell">👋 Farewell</option>
+            <option value="father’s Day">👨 Father’s Day</option>
+            <option value="well">❤️‍🩹 Get Well</option>
+            <option value="graduation">🎓 Graduation</option>
+            <option value="hanukkah ">🕎 Hanukkah</option>
+            <option value="mother">👩 Mother’s Day</option>
+            <option value="year ">🎇 New Year</option>
+            <option value="retirement ">🏖️ Retirement</option>
+            <option value="thank">🙏 Thank You</option>
+            <option value="valentine ">🌹 Valentine’s Day</option>
+            <option value="wedding">💍 Wedding</option>
+          </select>
+
+          <select id="tone">
+            <option value="">Choose a tone...</option>
+            <option value="adventurous">Adventurous</option>
+            <option value="elegant ">Elegant</option>
+            <option value="encouraging ">Encouraging</option>
+            <option value="energetic ">Energetic</option>
+            <option value="exited ">Exited</option>
+            <option value="grateful ">Grateful</option>
+            <option value="heartfelt ">Heartfelt</option>
+            <option value="hopeful">Hopeful</option>
+            <option value="inspirational ">Inspirational</option>
+            <option value="joyful">Joyful</option>
+            <option value="nostalgic ">Nostalgic</option>
+            <option value="sentimental">Sentimental</option>
+            <option value="supportive ">Supportive</option>
+          </select>
+          <select id="for">
+            <option value="">Who is it for?</option>
+            <option value="friend">🧑 Friend</option>
+            <option value="mother">👩 Mother</option>
+            <option value="father">👨 Father</option>
+            <option value="son">🧒 Son</option>
+            <option value="daughter">👧 Daughter</option>
+            <option value="grandfather">👴 Grandfather</option>
+            <option value="brother ">🧑‍🦱 Brother</option>
+            <option value="sister">👩‍🦱 Sister</option>
+            <option value="husband ">👱‍♂️ Husband</option>
+            <option value="wife">👱‍♀️ Wife</option>
+            <option value="partner">🧑 Partner</option>
+            <option value="grandson">🧒 Grandson</option>
+            <option value="granddoughter">👧 Graddoughter</option>
+            <option value="newlyweds">💍 Newlyweds</option>
+            <option value="coworker">🧑‍💼 Coworker</option>
+            <option value="loved">👩‍❤️‍👨 Loved once</option>
+            <option value="boyfriend ">🧍‍♂️ Boyfriend</option>
+            <option value="girlfriend ">🧍‍♀️ Girlfriend</option>
+            <option value="family">👨‍👩‍👧‍👦 Family member</option>
+            <option value="teacher">🧑‍🏫 Teacher</option>
+            <option value="employee">🧑‍💼 Employee</option>
+            <option value="boss">👩‍💼 Boss</option>
+          </select>
           <input
             type="text"
-            placeholder="Enter an occasion (Birthday, Wedding, Get Well...) "
+            placeholder="What's their name?"
             autofocus
             required
             autocomplete="off"
-            class="instructions"
+            class="name-input"
           />
           <input type="submit" class="submit-button" />
         </form>
