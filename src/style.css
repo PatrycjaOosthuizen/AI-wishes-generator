@@ -55,6 +55,7 @@ select {
   margin: 0 auto;
   display: block;
   color: gray;
+  background: #fff;
 }
 form {
   padding: 30px;
