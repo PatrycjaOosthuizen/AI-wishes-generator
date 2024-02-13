@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Wishes Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -19,7 +20,7 @@
         </p>
       </header>
       <main>
-        <form>
+        <form id="wishes-generator-form">
           <select id="occasion">
             <option value="">Choose an occasion...</option>
             <option value="anniversary">📆 Anniversary</option>
@@ -94,7 +95,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="wishes">The wishes will go here</div>
+        <div class="wishes" id="wishes"></div>
       </main>
       <footer>
         This AI project was coded by
