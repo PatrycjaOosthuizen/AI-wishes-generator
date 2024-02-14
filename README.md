@@ -3,4 +3,4 @@ A project from SheCodes using:
 * CSS, HTML, Java Script
 * The SheCodes AI API
 
-View the project live [here] (https://ai-wishes-generator-po-code.netlify.app/) 👀
+View the project live [here](https://ai-wishes-generator-po-code.netlify.app/) 👀
